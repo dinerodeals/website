@@ -1,0 +1,5 @@
+AuthName "Enter Your Login To Access Dinero Files"
+AuthType Basic
+AuthUserFile /var/www/dinero/.htpasswd
+AuthGroupFile /var/www/dinero/.htgroup
+require group dinero-admins
